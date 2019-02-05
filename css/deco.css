@@ -1,0 +1,96 @@
+title1 {font-size: 3.5rem;}
+
+.leftanime {
+  	-webkit-animation-delay: 0.5s;
+  	animation-delay:0.5s;
+}
+
+.centeranime {
+	-webkit-animation-delay: 0.75s;
+  	animation-delay:0.75s;
+}
+
+.rightanime {
+	-webkit-animation-delay: 1.0s;
+  	animation-delay:1.0s;
+}
+
+.introanime{
+	-webkit-animation-delay: 0.3s;
+  	animation-delay: 0.3s;
+}
+
+body {font-family: 'Raleway', sans-serif;
+font-weight: 100;}
+
+centergo {text-align : center;}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    width:60%;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+#middle {
+}
+
+#left_frame {
+	float: left;
+	width:33%;
+}
+
+#right_frame {
+	float: right;
+	width:34%;
+}
+
+#center_frame{
+	float: right;
+	width:33%;
+}
+
+#left_frame_to_right{
+	float: left;
+	text-align: right;
+	width: 49%;
+	padding: 1px;
+}
+
+#right_frame_to_left{
+	float: right;
+	text-align: left;
+	width: 50%;
+	padding: 1px;
+}
+
+.spacer {
+	height: 100px;
+}
+
+a {
+text-decoration: none;
+color:#6082D1;
+}
+
+.site__title {
+    color: #f35626;
+    background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 30s infinite linear;
+  }
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
